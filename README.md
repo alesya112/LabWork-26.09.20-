@@ -1,9 +1,8 @@
 # LabWork-26.09.20-
-#Упражение 2 "Построение графиков"
+#Упражнение 1 "Запись алгебраических выражений"
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 x=int(input())
-x = np.arange(x)
-plt.plot(x*x - x - 6)
-plt.show()
+y=np.log(((np.e**(1/(np.sin(x)+1))/(5/4+1/x**15))))/np.log((1+x**2))
+print(y)
